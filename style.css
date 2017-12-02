@@ -1,0 +1,121 @@
+body {
+	font-family: arial;
+	font-size: 16px;
+	margin: 0;
+}
+
+#button_bar td {
+	width: 50%;
+}
+
+.content {
+	display: table;
+	height: 50%;
+}
+
+.sidebar {
+	border-right: 1px solid black;
+	display: table-cell;
+	max-width: 250px;
+	min-width: 250px;
+	padding: 5px;
+	vertical-align: top;
+	width: 250px;
+}
+
+.checktd {
+	width: 10%;
+}
+
+.dados {
+	display: table-cell;
+	width: 100%;
+}
+
+#textGrammar_content {
+	border-bottom: 1px solid black;
+}
+
+#textGrammar_add {
+	text-align: center;
+}
+
+#textGrammar {
+	height: 200px;
+	width: 100%;
+	position: relative;
+	z-index: 99;
+}
+
+#add_grammar_btn {
+	margin-top: 5px;
+}
+
+#button_bar table {
+	text-align: center;
+	width: 100%;
+}
+
+.dados tr {
+	background-color: #fff;
+}
+
+.dados td, .dados tr {
+	border: 1px solid black;
+	padding: 5px;
+	text-align: center;
+}
+
+#grammar_dados td {
+	text-align: left;
+}
+
+.dados table.padded tr, .dados table.padded td {
+	padding: 5px 10px;
+}
+
+.dados table.inline {
+	display: inline-table;
+	vertical-align: top;
+}
+
+tr.highlight td:first-child, span.error {
+	color: red;
+	text-decoration: underline;
+}
+
+
+
+.input-wrapper {
+	overflow: hidden;
+	padding-right: .5em;
+}
+
+
+
+
+
+.grammar_data, .grammar_data {
+	display: inline-table;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	table-layout: fixed;
+	border: 2px solid black;
+    border-radius: 10px;
+    border-style: dashed;
+}
+
+.grammar_data td, .grammar_data th {
+	border: 1px solid black;
+	padding: 10px;
+	text-align: center;
+}
+
+.grammar_data th {
+	background-color: #fff;
+
+}
+
+.grammar_data .accepting_state {
+	vertical-align: sub;
+}
