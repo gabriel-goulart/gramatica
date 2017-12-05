@@ -10,7 +10,7 @@ body {
 
 .content {
 	display: table;
-	height: 50%;
+	height: 100%;
 }
 
 .sidebar {
@@ -103,6 +103,7 @@ tr.highlight td:first-child, span.error {
 	border: 2px solid black;
     border-radius: 10px;
     border-style: dashed;
+	height: 100px;
 }
 
 .grammar_data td, .grammar_data th {
