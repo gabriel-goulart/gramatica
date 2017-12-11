@@ -20,6 +20,7 @@ window.Workspace = function() {
 	this.addGrammar = function(grammar){
 		//alert(grammar);
 		// verifying grammar
+		var isFactored = true;
 		if ("string" == typeof grammar) {
             if ("" == grammar.trim()) return void this.error("A gramática não pode ser vázia");
             try {
